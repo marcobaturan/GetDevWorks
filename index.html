@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="GetDevWorks — End-to-end software development, from architecture to deployment, powered by AI. Fullstack development, technical leadership and AI integration." />
+    <meta property="og:title" content="GetDevWorks — AI-Powered Software Development" />
+    <meta property="og:description"
+        content="End-to-end software development, from architecture to deployment, powered by AI." />
+    <meta property="og:type" content="website" />
+    <title>GetDevWorks — AI-Powered Software Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ╔══════════════════════════════════════════╗ -->
+    <!--   NAVIGATION                                 -->
+    <!-- ╚══════════════════════════════════════════╝ -->
+    <nav class="nav" id="nav" aria-label="Main navigation">
+        <div class="nav__inner">
+            <a href="#hero" class="nav__logo" aria-label="GetDevWorks home">
+                <span class="nav__logo-text">Get<span class="nav__logo-accent">Dev</span>Works</span>
+            </a>
+            <ul class="nav__links" role="list">
+                <li><a href="#services" class="nav__link">Services</a></li>
+                <li><a href="#why" class="nav__link">Why Us</a></li>
+                <li><a href="#contact" class="nav__link nav__link--cta">Get in Touch</a></li>
+            </ul>
+            <button class="nav__hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"
+                aria-controls="mobileMenu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="nav__mobile" id="mobileMenu" aria-hidden="true">
+            <ul role="list">
+                <li><a href="#services" class="nav__link">Services</a></li>
+                <li><a href="#why" class="nav__link">Why Us</a></li>
+                <li><a href="#contact" class="nav__link nav__link--cta">Get in Touch</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ╔══════════════════════════════════════════╗ -->
+        <!--   HERO                                       -->
+        <!-- ╚══════════════════════════════════════════╝ -->
+        <section class="hero" id="hero" aria-label="Hero section">
+            <div class="hero__bg-grid" aria-hidden="true"></div>
+            <div class="hero__glow hero__glow--1" aria-hidden="true"></div>
+            <div class="hero__glow hero__glow--2" aria-hidden="true"></div>
+
+            <div class="hero__content">
+                <div class="hero__badge fade-target">
+                    <span class="hero__badge-dot" aria-hidden="true"></span>
+                    Available for new projects
+                </div>
+
+                <h1 class="hero__title fade-target">
+                    <span class="hero__title-line">Get</span><span
+                        class="hero__title-line hero__title-line--accent">Dev</span><span
+                        class="hero__title-line">Works</span>
+                </h1>
+
+                <p class="hero__tagline fade-target">
+                    End-to-end software development,<br />
+                    from architecture to deployment,<br />
+                    <em>powered by AI.</em>
+                </p>
+
+                <p class="hero__sub fade-target">
+                    Fullstack development, technical leadership and AI integration<br class="hero__br-desktop" />
+                    for your product.
+                </p>
+
+                <div class="hero__actions fade-target">
+                    <a href="#contact" class="btn btn--primary">
+                        <span>Start a Project</span>
+                        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a href="#services" class="btn btn--ghost">Explore Services</a>
+                </div>
+
+                <div class="hero__stats fade-target" aria-label="Key stats">
+                    <div class="hero__stat">
+                        <span class="hero__stat-value">3+</span>
+                        <span class="hero__stat-label">Industries</span>
+                    </div>
+                    <div class="hero__stat-divider" aria-hidden="true"></div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-value">AI</span>
+                        <span class="hero__stat-label">Native</span>
+                    </div>
+                    <div class="hero__stat-divider" aria-hidden="true"></div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-value">1</span>
+                        <span class="hero__stat-label">Point of Contact</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero__scroll-hint" aria-hidden="true">
+                <span class="hero__scroll-line"></span>
+                <span class="hero__scroll-text">scroll</span>
+            </div>
+        </section>
+
+        <!-- ╔══════════════════════════════════════════╗ -->
+        <!--   SERVICES                                   -->
+        <!-- ╚══════════════════════════════════════════╝ -->
+        <section class="section services" id="services" aria-labelledby="services-heading">
+            <div class="container">
+                <header class="section__header fade-target">
+                    <span class="section__label">What I Do</span>
+                    <h2 id="services-heading" class="section__title">Services</h2>
+                    <p class="section__subtitle">Full-spectrum development capabilities, deployable from day one.</p>
+                </header>
+
+                <div class="services__grid">
+
+                    <article class="card fade-target" aria-label="Fullstack Development service">
+                        <div class="card__icon-wrap" aria-hidden="true">
+                            <div class="card__icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6" />
+                                    <polyline points="8 6 2 12 8 18" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="card__title">Fullstack Development</h3>
+                        <p class="card__body">Web and mobile applications built front to back — clean, scalable, and
+                            production-ready from the first commit.</p>
+                        <ul class="card__tags" aria-label="Technologies">
+                            <li class="tag">React</li>
+                            <li class="tag">Node.js</li>
+                            <li class="tag">Python</li>
+                            <li class="tag">Cloud</li>
+                        </ul>
+                    </article>
+
+                    <article class="card fade-target" aria-label="Software Architecture service">
+                        <div class="card__icon-wrap" aria-hidden="true">
+                            <div class="card__icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="3" width="7" height="7" />
+                                    <rect x="14" y="3" width="7" height="7" />
+                                    <rect x="14" y="14" width="7" height="7" />
+                                    <rect x="3" y="14" width="7" height="7" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="card__title">Software Architecture</h3>
+                        <p class="card__body">System design and technical leadership for teams and products that need to
+                            grow sustainably without accumulating tech debt.</p>
+                        <ul class="card__tags" aria-label="Capabilities">
+                            <li class="tag">Microservices</li>
+                            <li class="tag">APIs</li>
+                            <li class="tag">DevOps</li>
+                            <li class="tag">TDD</li>
+                        </ul>
+                    </article>
+
+                    <article class="card fade-target" aria-label="AI Integration service">
+                        <div class="card__icon-wrap" aria-hidden="true">
+                            <div class="card__icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="3" />
+                                    <path
+                                        d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="card__title">AI Integration</h3>
+                        <p class="card__body">Automation and AI-powered features that eliminate bottlenecks and cut
+                            operational costs — measurable results, not experiments.</p>
+                        <ul class="card__tags" aria-label="AI Capabilities">
+                            <li class="tag">LLMs</li>
+                            <li class="tag">Automation</li>
+                            <li class="tag">RAG</li>
+                            <li class="tag">Agents</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ╔══════════════════════════════════════════╗ -->
+        <!--   WHY GETDEVWORKS                            -->
+        <!-- ╚══════════════════════════════════════════╝ -->
+        <section class="section why" id="why" aria-labelledby="why-heading">
+            <div class="container">
+                <header class="section__header fade-target">
+                    <span class="section__label">The Difference</span>
+                    <h2 id="why-heading" class="section__title">Why GetDevWorks</h2>
+                    <p class="section__subtitle">Not another agency. A single senior engineer fully committed to your
+                        outcome.</p>
+                </header>
+
+                <div class="why__list">
+
+                    <div class="why__item fade-target">
+                        <div class="why__number" aria-hidden="true">01</div>
+                        <div class="why__content">
+                            <h3 class="why__title">Results over estimates</h3>
+                            <p class="why__body">Faster releases and time savings, delivered in production environments.
+                                No vague roadmaps — concrete deliverables with measurable impact from day one.</p>
+                        </div>
+                        <div class="why__line" aria-hidden="true"></div>
+                    </div>
+
+                    <div class="why__item fade-target">
+                        <div class="why__number" aria-hidden="true">02</div>
+                        <div class="why__content">
+                            <h3 class="why__title">One point of contact</h3>
+                            <p class="why__body">Architecture, development and AI in a single engagement — no
+                                coordination overhead, no lost handoffs, no translating business needs through layers of
+                                team.</p>
+                        </div>
+                        <div class="why__line" aria-hidden="true"></div>
+                    </div>
+
+                    <div class="why__item fade-target">
+                        <div class="why__number" aria-hidden="true">03</div>
+                        <div class="why__content">
+                            <h3 class="why__title">Regulated-environment experience</h3>
+                            <p class="why__body">Fintech and healthcare background where quality and compliance are
+                                mandatory. Production-grade standards applied to every project, regardless of size.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ╔══════════════════════════════════════════╗ -->
+        <!--   CONTACT                                    -->
+        <!-- ╚══════════════════════════════════════════╝ -->
+        <section class="section contact" id="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <div class="contact__card fade-target">
+                    <div class="contact__glow" aria-hidden="true"></div>
+                    <div class="contact__inner">
+                        <span class="section__label">Ready to build?</span>
+                        <h2 id="contact-heading" class="contact__title">Start the conversation</h2>
+                        <p class="contact__body">
+                            Tell me about your project. I'll respond within 24 hours with a clear next step — no sales
+                            calls, no obligations.
+                        </p>
+                        <a href="mailto:contact@getdevworks.com" class="btn btn--primary btn--lg"
+                            id="contact-email-btn">
+                            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="4" width="20" height="16" rx="2" />
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                            </svg>
+                            <span>contact@getdevworks.com</span>
+                        </a>
+                        <p class="contact__note">
+                            Prefer a quick call?
+                            <a href="https://www.linkedin.com/in/marcogarciabaturan/" class="contact__link"
+                                target="_blank" rel="noopener noreferrer">Find me on LinkedIn →</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ╔══════════════════════════════════════════╗ -->
+    <!--   FOOTER                                     -->
+    <!-- ╚══════════════════════════════════════════╝ -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__inner">
+                <span class="footer__brand">Get<span class="footer__brand-accent">Dev</span>Works</span>
+                <nav class="footer__nav" aria-label="Footer navigation">
+                    <a href="https://github.com/marcobaturan" class="footer__link" target="_blank"
+                        rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/marcogarciabaturan/" class="footer__link" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a>
+                    <a href="mailto:contact@getdevworks.com" class="footer__link">Email</a>
+                </nav>
+                <p class="footer__copy">© 2026 GetDevWorks. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
