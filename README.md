@@ -42,18 +42,14 @@ python3 -m http.server 8080
 
 ## Deployment (GitHub Pages)
 
-```bash
-# First time — create and push
-git init
-git add .
-git commit -m "chore: initial company page"
-gh repo create GetDevWorks --public --source=. --push
+This project uses a **GitHub Actions workflow** (`.github/workflows/static.yml`) to automatically deploy the `main` branch to GitHub Pages.
 
-# Enable GitHub Pages (from main branch root)
-gh api repos/marcobaturan/GetDevWorks/pages \
-  -X POST \
-  -f source.branch=main \
-  -f "source.path=/"
+To deploy changes, simply commit and push to the `main` branch:
+
+```bash
+git add .
+git commit -m "feat: your changes"
+git push
 ```
 
 ## License
