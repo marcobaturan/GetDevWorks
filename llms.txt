@@ -1,0 +1,19 @@
+# GetDevWorks
+> AI-powered software development studio. Fullstack, AI integration,
+> automation and QA for agencies and startups.
+
+## Services
+- Fullstack web development (React, Next.js, Python, Django)
+- AI integration (Groq, Gemini, Hugging Face, RAG systems)
+- Process automation (n8n, Node-RED, GitHub Actions)
+- QA automation (Selenium, Robot Framework, Locust)
+
+## About
+Single senior engineer with 7+ years in fintech and healthcare.
+Remote. Worldwide. Available for project-based contracts and retainers.
+
+## Contact
+- Web: https://www.getdevworks.com
+- Email: contact@getdevworks.com
+- LinkedIn: https://www.linkedin.com/company/getdevworks
+- GitHub: https://github.com/marcobaturan
