@@ -1,20 +1,32 @@
+# Search engines
 User-agent: *
 Allow: /
 Sitemap: https://www.getdevworks.com/sitemap.xml
-User-agent: PerplexityBot
-Allow: /
 
+# LLM crawlers — explicitly allowed
 User-agent: GPTBot
 Allow: /
 
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: GoogleOther
+User-agent: ChatGPT-User
 Allow: /
 
 User-agent: anthropic-ai
 Allow: /
 
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
 User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Omgilibot
 Allow: /
