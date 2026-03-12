@@ -1,57 +1,45 @@
-# GetDevWorks — Company Page
+# GetDevWorks
 
-> End-to-end software development, from architecture to deployment, powered by AI.
+GetDevWorks is a software consultancy specialising in fullstack development, software architecture and AI integration. We build production-grade web applications, automated systems and AI-powered features for agencies and startups, acting as a single, senior point of technical ownership from architecture to deployment.
 
-**Live Site →** [https://marcobaturan.github.io/GetDevWorks/](https://marcobaturan.github.io/GetDevWorks/)
+**Live site → [https://www.getdevworks.com](https://www.getdevworks.com)**
 
 ---
 
-## About
+## Services
 
-Single-page company website for **GetDevWorks**, a solo software consultancy specialising in fullstack development, software architecture, and AI integration.
+| Service | Description | Stack |
+|---|---|---|
+| Fullstack Development | Web applications built front to back — scalable and production-ready from the first commit | React, Next.js, Node.js, Python, Django, Ruby on Rails, Cloud |
+| Software Architecture | System design and technical leadership for products that need to grow without accumulating technical debt | Microservices, REST APIs, DevOps, TDD |
+| AI Integration | Automation and AI-powered features that eliminate bottlenecks and deliver measurable results | Groq, Gemini, Hugging Face, LangChain, RAG, Agents |
 
-## Features
+---
 
-- Dark glassmorphism design (backdrop-filter blur, cyan/blue glow palette)
-- Bidirectional scroll fade — elements fade in scrolling down *and* fade out in reverse when scrolling up
-- Sticky frosted-glass navigation with mobile hamburger menu
-- Three-column services grid
-- Numbered value propositions section
-- Contact CTA card with glow effect
-- Fully responsive: mobile (≤480 px), tablet (481–768 px), desktop (≥769 px)
-- Zero external JS dependencies · semantic HTML5 + ARIA attributes
+## Why GetDevWorks
 
-## Project Structure
+- **Results over estimates.** Faster releases and time savings delivered in production environments. No vague roadmaps — concrete deliverables with measurable impact from day one.
+- **One point of contact.** Architecture, development and AI in a single engagement. No coordination overhead, no lost handoffs, no translating business needs through layers of team.
+- **Regulated-environment experience.** Fintech and healthcare background where quality and compliance are mandatory. Production-grade standards applied to every project, regardless of size.
 
-```
-getdevworks/
-├── index.html   # Page structure and content
-├── style.css    # All styles, design tokens, fade animations, breakpoints
-├── script.js    # Bidirectional IntersectionObserver, nav, hamburger, smooth scroll
-└── README.md    # This file
-```
+---
 
-## Local Development
+## Tech Stack
 
-```bash
-# Python 3 — no install required
-cd /path/to/getdevworks
-python3 -m http.server 8080
-# Open http://localhost:8080 in your browser
-```
+| Layer | Technologies |
+|---|---|
+| Frontend | React, Next.js |
+| Backend | Python, Django, Ruby on Rails |
+| AI & Automation | Groq, Gemini, Hugging Face, LangChain, RAG |
+| QA & Testing | Selenium, Robot Framework, Appium |
 
-## Deployment (GitHub Pages)
+---
 
-This project uses a **GitHub Actions workflow** (`.github/workflows/static.yml`) to automatically deploy the `main` branch to GitHub Pages.
+## Contact
 
-To deploy changes, simply commit and push to the `main` branch:
+- **Email:** [contact@getdevworks.com](mailto:contact@getdevworks.com)
+- **LinkedIn:** [linkedin.com/company/getdevworks](https://www.linkedin.com/company/getdevworks/)
 
-```bash
-git add .
-git commit -m "feat: your changes"
-git push
-```
+---
 
-## License
-
-© 2026 GetDevWorks — Marco Baturan. All rights reserved.
+© 2026 GetDevWorks. All rights reserved.
